@@ -1,0 +1,37 @@
+{
+  "log": {
+    "level": "DEBUG"
+  },
+  "mail": {
+    "from": "company@xxx.com", //邮件发送人
+    "mailTo": "di.mu@xxx.com", //邮件接收人
+    "host":"smtp.xxx.com",
+    "port":25,
+    "secure":false,
+    "user":"company@xxx.com",  //程序使用的邮件
+    "pass":"程序使用的邮件的密码"
+  },
+  "imgCode":{
+    "key":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"   // https://www.juhe.cn/docs/api/id/60  识别验证码api的key
+  },
+  "account": [
+    {
+      "name": "美团xxx店",
+      "username": "帐户名",
+      "password": "账户密码",
+      "type": "meituan"
+    },
+    {
+      "name": "饿了么xxx店",
+      "username": "帐户名",
+      "password": "账户密码",
+      "type": "eleme"
+    },
+    {
+      "name": "百度xxx店",
+      "username": "帐户名",
+      "password": "账户密码",
+      "type": "baidu"
+    }
+  ]
+}
